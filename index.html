@@ -1,0 +1,493 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="icon" href="src/img/logo.png">
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/920b1aaee6.js" crossorigin="anonymous"></script>
+    <!--myslider css-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/giorgi225/magic-slider@main/style.min.css"/>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(24, 24, 24);">
+    
+    <!--HEADER-->
+    <header class="header">
+        <div class="header__inner">
+            <!--col-->
+            <div class="header__inner-col">
+                <a class="header__inner-col-logo" href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <div class="header__inner-col-search" id="searchInp">
+                    <i class="fas fa-search"></i>
+                    <input type="search-input" name="" id="" placeholder="Search Facebook">
+                </div>
+                <div class="search-wrapper">
+                    <div class="close-search">
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                    <div class="search-wrapper-inner">
+                        <i class="fas fa-search"></i>
+                        <input type="search-input" name="" id="" placeholder="Search Facebook">
+                    </div>
+                </div>
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <!--col-->
+            <div class="header__inner-col">
+                <ul class="header__inner-col-menu">
+                    <li class="header__inner-col-list" id="activeList">
+                        <a class="header__inner-col-link" href="#"><i class="fas fa-home"></i></a>
+                        <div class="sup-text">Home</div>
+                    </li>
+                    <li class="header__inner-col-list">
+                        <a class="header__inner-col-link" href="#"><i class="fas fa-video"></i></a>
+                        <div class="sup-text">Watch</div>
+                    </li>
+                    <li class="header__inner-col-list">
+                        <a class="header__inner-col-link" href="#"><i class="fas fa-store"></i></a>
+                        <div class="sup-text">Marketplace</div>
+                    </li>
+                    <li class="header__inner-col-list">
+                        <a class="header__inner-col-link" href="#"><i class="fas fa-users"></i></a>
+                        <div class="sup-text">Groups</div>
+                    </li>
+                    <li class="header__inner-col-list">
+                        <a class="header__inner-col-link" href="#"><i class="fas fa-headset"></i></a>
+                        <div class="sup-text">Gaming</div>
+                    </li>
+                </ul>
+            </div>
+            <!--col-->
+            <div class="header__inner-col">
+                <a href="#">
+                    <div class="header__inner-col-profile" id="userprofile">
+                        <img class="profile-img"  alt="profile" width="30px" id="myImg">
+                        <p class="profile-name" id="username">User</p>
+                    </div>
+                </a>
+                <div class="header__inner-col-options">
+                    <div class="option">
+                        <div class="sup-text">Create</div>
+                        <div class="option-wr-hn add crt">
+                            <div class="wr__inner">
+                                <div class="wr__inner-title">Create</div>
+                                <div class="wr__inner-body">
+                                    <div class="wr__inner-body-half">
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-pen-alt"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Post</div>
+                                                <div class="pt-mm-s">Share a post on News Feed</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-book-open"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Story</div>
+                                                <div class="pt-mm-s">Share a photo or write something</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-video"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Room</div>
+                                                <div class="pt-mm-s">Video chat with anyone, on or off Facebook, without time limits</div>
+                                            </div>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="wr__inner-body-half">
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-flag"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Page</div>
+                                                <div class="pt-mm-s">Connect and share with customers or fans</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-bullhorn"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Ad</div>
+                                                <div class="pt-mm-s">Advertise your business, brand or organisation</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-users"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Group</div>
+                                                <div class="pt-mm-s">Connect with people who share your interests.</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-calendar-week"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Event</div>
+                                                <div class="pt-mm-s">Bring people together with a public or private event</div>
+                                            </div>
+                                        </div>
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-shopping-bag"></i>
+                                            <div class="pt-mm">
+                                                <div class="pt-mm-m">Marketplace Listing</div>
+                                                <div class="pt-mm-s">Sell items to people in your community</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fas fa-plus"></i>        
+                    </div>
+                    <div class="option">
+                        <div class="sup-text">Messenger</div>
+                        <div class="option-wr-hn add mesng">
+                            <div class="wr__inner">
+                                <div class="wr__inner-tp">
+                                    <div class="wr__inner-title">Messenger</div>
+                                    <div class="wr__inner-opt">
+                                        <div class="opt-set"><i class="fas fa-ellipsis-h"></i></div>
+                                        <div class="opt-set"><i class="fas fa-expand-arrows-alt"></i></div>
+                                        <div class="opt-set"><i class="fas fa-video"></i></div>
+                                        <div class="opt-set"><i class="fas fa-pen-alt"></i></div>
+                                    </div>
+                                </div>
+                                <div class="wr__inner-src">
+                                    <i class="fas fa-search"></i>
+                                    <input type="search" name="" id="" placeholder="Search Messenger">
+                                </div>
+                                <div class="wr__inner-body" id="messageusers">
+                                   
+                                  
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <i class="fab fa-facebook-messenger"></i>        
+                    </div>
+                  
+                    <div class="option">
+                        <div class="sup-text">Account</div>
+                        <div class="option-wr-hn">
+                            <div class="sup-text">Notifications</div>
+                        <div class="option-wr-hn">
+                            <div class="option-wr-hn add sett">
+                                <div class="wr__inner">
+                                    <a href="#" style="text-decoration: none; color: #fff;">
+                                        <a href="./profile.html" style="color: white; text-decoration: none;">
+                                        <div class="wr__inner-tp x">
+                                            <img class="setpr" id="sidebaruserimage1" alt="profile">
+
+                                               <div class="fld">
+                                                   <div class="wr__inner-title" id="sidebarusername1">Monica Belucci</div>
+                                                   <div class="wr__inner-p">See your profile</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </a>
+                                    <hr style="width: 100%; margin: 15px 0;">
+                                    <div class="wr__inner-body">
+                                        <div class="wr__inner-body-pt">
+                                            <i class="fas fa-comment-alt"></i>
+                                            <div class="pt-mm sd">
+                                                <div class="pt-mm-m">Give feedback</div>
+                                                <div class="pt-mm-s">Helo us improve Facebook</div>
+                                            </div>
+                                        </div>
+                                        <hr style="width: 100%; margin: 15px 0">
+                                        <div class="wr__inner-body-pt" id="userlogout">
+                                            <i class="fa-solid fa-right-from-bracket"></i>
+                                            <div class="pt-mm sd">
+                                                <div class="pt-mm-m">Logout</div>
+                                                <div class="pt-mm-s">You want to logout</div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <i class="fas fa-caret-down"></i>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--SIDEBAR-->
+    <div class="sidebar">
+        <div class="sidebar__inner">
+            <div class="sidebar__inner-nav">
+                <a class="nvp" href="./profile.html" style="text-decoration: none;">
+                    <div class="sidebar__inner-nav-profile" >
+                        <img  alt="profile" width="50px" id="sidebaruserimage">
+                        <p class="profile-name" id="sidebarusername">User</p>
+                    </div>
+                </a>
+                <ul class="sidebar__inner-nav-menu">
+                    <li class="sidebar__inner-nav-menu-list">
+                        <a class="sidebar__inner-nav-menu-link" href="#">
+                            <i class="fas fa-user-friends"></i>
+                            Friends
+                        </a>
+                    </li>
+                    <li class="sidebar__inner-nav-menu-list">
+                        <a class="sidebar__inner-nav-menu-link" href="#">
+                            <i class="fas fa-store"></i>
+                            Marketplace
+                        </a>
+                    </li>
+                    <li class="sidebar__inner-nav-menu-list">
+                        <a class="sidebar__inner-nav-menu-link" href="#">
+                            <i class="fas fa-users"></i>
+                            Groups
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--SIDEBAR END-->
+
+    <!-- body -->
+    <div class="main-body">
+        <div class="main-body__inner">
+            <div class="main-body__inner-container">
+                <div class="main-body-author-post">
+                    <div class="author-post-top" >
+                        <img  alt="profile" width="50px" id="postingsideimage">
+                        <input type="text" name="" id="postinput" placeholder="What's on your mind, Monica?">
+                    </div>
+                    <div class="postUT"></div>
+                    <div class="author-post-bottom">
+                        <div class="col1">
+                            <i class="fas fa-video red"></i>
+                            <p>Live Video</p>
+                        </div>
+                        <div class="col1">
+                            <i class="fas fa-images green"></i>
+                            <p>Photo/Video </p>
+                        </div>
+                        <div class="col1">
+                            <i class="fas fa-grin-beam yellow"></i>
+                            <p>Feeling/Activity</p>
+                        </div>
+                        <div class="col1" id="addpost">
+                            <i class="fas fa-images green"></i>
+                            <p>Add Post</p>
+                        </div>
+                    </div>
+                </div>
+                <div  id="postcontainer">
+
+                </div>
+
+                <!-- <div class="main-body-friend-post loadComments active">
+                    <div class="friend-post-container">
+                        <div class="friend-post-top">
+                            <div class="left">
+                                <img src="src/img/friends1.jpg" alt="friend">
+                                <div class="title">
+                                    <p class="mm">John Miller</p>
+                                    <p class="ss">10 h ago</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                        <div class="friend-post-title">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime cupiditate earum aliquid neque voluptas distinctio? Impedit officia nihil hic veritatis! Voluptatibus inventore qui ea cupiditate labore odio iste non at?
+                        </div>
+                        <div class="friend-post-main-picture">
+                            <img src="src/img/post.jpg" alt="postImg">
+                        </div>
+                        <div class="friend-post-info">
+                            <div class="info-left">
+                                <div class="emj">
+                                    <div class="el-12">
+                                        <i class="yellow fas fa-grin"></i>
+                                        <div class="el-12-info">
+                                            <ul>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="el-12">
+                                        <i class="red fas fa-heart"></i>
+                                        <div class="el-12-info">
+                                            <ul>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                                <li>Sarah</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="title">Sarah and 1252 others</div>
+                            </div>
+                            <div class="info-right">
+                                <p>561</p><span>comments</span>
+                                <p>1002</p><span>Share</span>
+                            </div>
+                        </div>
+                        <div class="friend-post-actions">
+                            <div class="postUT"></div>
+                                <div class="actions-cp-12">
+                                    <div class="action-col like">
+                                        <div class="like-p">
+                                            <i class="likeIcon fas fa-thumbs-up"></i>
+                                        </div>
+                                        <p>Like</p>
+
+                                        <div class="get-emj-12">
+                                            <div class="col1"><i class="blue fas fa-thumbs-up"></i></div>
+                                            <div class="col1"><i class="yellow fas fa-laugh-beam"></i></div>
+                                            <div class="col1"><i class="red fas fa-heart" value="heart"></i></div>
+                                            <div class="col1"><i class="yellow fas fa-surprise"></i></div>
+                                            <div class="col1"><i class="red fas fa-kiss-wink-heart"></i></div>
+                                        </div>
+                                    </div>
+                                    <div class="action-col comments">
+                                        <i class="fas fa-comment"></i>
+                                        <p>Comment</p>
+                                    </div>
+                                    <div class="action-col">
+                                        <i class="fas fa-share"></i>
+                                        <p>Share</p>
+                                    </div>
+                                </div>
+                            <div class="postUT"></div>
+                        </div>
+                       comment things
+
+                         <div class="friend-post-comment-section">
+                            <div class="friend-post-author-comment">
+                                <img src="src/img/profile.jpg" alt="profile">
+                                <input type="text" name="" id="" placeholder="Write a comment...">
+                            </div>
+                            <div class="friend-post-comments">
+                                <div class="post-comments">
+                                    <div class="post-comment-image">
+                                        <img src="src/img/friends3.jpg"  alt="friend">
+                                    </div>
+                                    <div class="post-comment-cm">
+                                       <div class="cm-top">
+                                            <div class="cm-title">Denise Rodgers</div>
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsa velit aperiam earum molestiae sit aut libero dolores, facere voluptas impedit sint repellat animi maxime.</p>
+                                       </div>
+                                       <div class="cm-bottom">
+                                           <div class="cm-like">Like</div>
+                                           <div class="cm-reply replyCom">Reply</div>
+                                           <div class="cm-time">25m</div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                          
+                            
+                        </div> -->
+                    <!-- </div> -->
+                </div> 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> 
+    
+
+    <!-- Messages bar -->
+    <div class="messagesBar">
+        <div class="messagesBar__inner">
+            <div class="messagesBar__inner-menu">
+                <div class="messagesBar__inner-menu-main">
+                    <div class="title">Total Users</div>
+                    <div class="opt">
+                        <div class="optC"><i class="fas fa-video"></i></div>
+                        <div class="optC"><i class="fas fa-search"></i></div>
+                        <div class="optC"><i class="fas fa-ellipsis-h"></i></div>
+                    </div>
+                </div>
+                <ul class="messagesBar__inner-menu-ul" id="usermessage">
+                    <li class="messagesBar__list">
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--Messages bar END-->
+    
+    <script type="module" src="main.js"></script>
+    <script  src="index.js"></script>
+    
+</body>
+</html>
