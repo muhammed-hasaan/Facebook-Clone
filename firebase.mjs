@@ -4,14 +4,14 @@
  import { getFirestore } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-firestore.js";
  import { getStorage } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-storage.js";
 
-  const firebaseConfig = {
-    apiKey: "AIzaSyC5YcPD-G_Gmhjobcj09Kmr1kUNx3sDkd0",
-    authDomain: "facebook-progress.firebaseapp.com",
-    projectId: "facebook-progress",
-    storageBucket: "facebook-progress.appspot.com",
-    messagingSenderId: "23153948433",
-    appId: "1:23153948433:web:d860e7c98efd1cc0e83eb0",
-    measurementId: "G-R4QQCTQRQZ"
+const firebaseConfig = {
+    apiKey: "AIzaSyBpD_Bd0HlOP0BIpa8c8Z7aH4TUVzEMGhQ",
+    authDomain: "facebookclonee-d2980.firebaseapp.com",
+    projectId: "facebookclonee-d2980",
+    storageBucket: "facebookclonee-d2980.appspot.com",
+    messagingSenderId: "813062469537",
+    appId: "1:813062469537:web:83599fb1a0337d0f60bde0",
+    measurementId: "G-WGC4JWP01C"
   };
 
 export const app = initializeApp(firebaseConfig);
